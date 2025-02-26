@@ -1,0 +1,28 @@
+
+configuraçoes iniciais
+
+
+python -m venv venv
+venv/Scripts/activate
+pip install django pillow
+django-admin startproject "biblioeteca" .
+python manage.py
+python manage.py startapp
+pip freeze
+
+
+pip install -r requirements.txt
+python manage.py migrate
+
+python manage.py runserver
+python manage.py makemigrations
+python manage.py createsuperuser
+
+
+o que pontua:
+rojeto : requerimento.txt , forma de botar no git
+gitignore
+readme
+admin
+linguagem e horári
+docker
